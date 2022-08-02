@@ -16,8 +16,7 @@ public class ListaLigada {
 			this.ultima = this.primeira;
 		}
 		
-		this.totalDeElementos++;
-		
+		this.totalDeElementos++;	
 	
 	}
 	@Override
@@ -42,7 +41,6 @@ public class ListaLigada {
 	}
 	
 	public void adiciona (Object elemento) {
-		
 		if(this.totalDeElementos == 0) {
 		adicionaNoComeco(elemento);
 	} else {
